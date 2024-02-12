@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Container Hardening using Distroless
 date: 2024-02-12 08:00:00 +/-TTTT
 categories: [hardening, container hardening]
