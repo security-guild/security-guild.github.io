@@ -7,7 +7,7 @@ tags: [
   oci, container, hardening, docker, security, lotl, lolbins, syft, grype, dive,
   distroless, rootless, sbom, vulnerability, scan
 ]
-author: <vincent_remy>
+author: vincent_remy
 ---
 
 <img
