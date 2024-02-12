@@ -10,7 +10,10 @@ tags: [
 author: <vincent_remy>
 ---
 
-<img src="/assets/img/container-security-using-distroless.webp" />
+<img
+  alt="An Engineer analysing Docker containers"
+  src="/assets/img/container-security-using-distroless.webp"
+/>
 
 ## Living of the land
 
@@ -296,7 +299,7 @@ collapse directories with they space key, this is ideal when we want to skip hug
 see all modified files. In the following screencast a little demo is given to
 get an impression of how Dive looks like.
 
-<img src="/assets/img/dive-demo.gif" />
+<img alt="A demo of the CLI tool Dive" src="/assets/img/dive-demo.gif" />
 
 When searching for LOLBins we should look in the directories commonly used in
 Linux to store binaries as shown in the list below.
