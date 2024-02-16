@@ -56,7 +56,7 @@ But this is where our story starts regarding container hardening.
 
 From the foothold commands can be send to a container and in our example
 commands where send to execute a reverse-shell which establish terminal access
-for te attacker into the container environment where our application is running
+for the attacker into the container environment where our application is running
 in.
 
 From this point in the attack there are many oppertunities to further exploit
@@ -159,10 +159,6 @@ inside the container. Google provides the tag nonroot to for this purpose.
 
 <img alt="A LOLBin demo with OpenSSL" src="/assets/img/lolbin.gif" />
 
-<!-- We have learned how to apply hardening by leveraging Distroless and rootless
-container images. We also learned how Distroless container images can still
-contain vulnerable packages or LOLBins. -->
-
 In the previous paragraph we explained how Distroless images can be used as a
 layer of hardening against LOLBins. But before we build on top of a Distroless
 container image we should understand an important fact. Even Distroless images
@@ -206,7 +202,7 @@ SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 HOME=/home/nonroot
 ```
 
-A final example is how an adversary could abuse this for enumeration purposes,
+A final example is how an attacker could abuse this for enumeration purposes,
 in this case we can determine from the outside with what kind of system we are
 dealing with.
 
@@ -378,7 +374,7 @@ If everything went well we should now be able to visit
 and see the message `Hello World!` displayed in the browser.
 
 As explained before a Distroless image doesn't contain a shell which could be
-abused by an adversary. So, lets try to get a shell on our hardened container
+abused by an attacker. So, lets try to get a shell on our hardened container
 `hello-world`.
 
 ```sh
