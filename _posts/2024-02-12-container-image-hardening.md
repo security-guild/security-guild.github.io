@@ -11,11 +11,6 @@ author: vincent_remy
 image: https://security-guild.github.io/assets/img/container-security-using-distroless.webp
 ---
 
-<img
-  alt="An Engineer analysing Docker containers"
-  src="/assets/img/container-security-using-distroless.webp"
-/>
-
 Container hardening is all the measures taken to mitigate vulnerabilities and
 abuse of weaknesses of containerization. Not only the measures taken in the
 container image itself but all components that make it possible to run a
