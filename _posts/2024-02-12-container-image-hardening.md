@@ -8,6 +8,7 @@ tags: [
   distroless, rootless, sbom, vulnerability, scan
 ]
 author: vincent_remy
+image: /assets/img/container-security-using-distroless.webp
 ---
 
 <img
